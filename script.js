@@ -27,6 +27,7 @@ function draw () {
   background(255)
   angleMode(DEGREES)
 
+  // The background's movements
   x = xPos + circleRadius * cos(PI / 180 + angle)
   y = yPos + circleRadius * sin(PI / 180 + angle)
 
